@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresente Fácil</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Apresente Fácil</h1>
+        <p>Crie apresentações interativas e envolventes.</p>
+    </header>
+
+    <main>
+        <section class="editor">
+            <h2>Editor de Apresentação</h2>
+            <div class="slide-container">
+                <div class="slide-card active" id="slide-1">
+                    <h3>Slide 1: Introdução</h3>
+                    <p>Clique para editar o texto.</p>
+                </div>
+            </div>
+            <div class="botoes-editor">
+                <button onclick="adicionarSlide()">+ Adicionar Slide</button>
+                <button onclick="adicionarElemento('quiz')">Adicionar Quiz</button>
+                <button onclick="visualizar()">Visualizar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
